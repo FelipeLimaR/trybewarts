@@ -1,8 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html , body {
+
+  /* font-family: 'Miltonian Tattoo', cursive; */
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+#btn-login {
+  background-color: rgb(62, 0, 133);
+  color: white;
+  border-radius: 5px;
+  width: 100px;
+  height: 35px;
+  margin-bottom: 10px;
+}
+
+.trybewarts-header-logo {
+  width: 80px;
+}
+
+#trybewarts-header-title {
+  font-size: 3.5em;
+  color: white;
+}
+
+.trybewarts-login {
+  display: flex;
+  align-items: center;
+}
+
+#email-login {
+  width: 150px;
+  margin: 0 10px;
+  border-radius: 5px;
+  height: 35px;
+  margin-bottom: 10px;
+}
+
+#senha-login {
+  width: 150px;
+  margin: 0 5px;
+  border-radius: 5px;
+  height: 35px;
+  margin-bottom: 10px;
+}
+
+p {
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgb(126, 124, 124);
+  height: 8vh;
+}
+
 main {
   display: flex;
 }
 
-form {
+.form {
   width: 675px;
   display: flex;
   flex-direction: column;
