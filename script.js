@@ -13,7 +13,6 @@ btn.addEventListener('click', () => {
   }
 });
 
-
 checkBox.addEventListener('click', () => {
-  submitBtn.disabled = false
-})
+  submitBtn.disabled = false;
+});

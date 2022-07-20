@@ -149,8 +149,7 @@ select {
 
 #checksContainer {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  flex-flow: row wrap;
   align-self: flex-start;
 }
 
@@ -161,14 +160,10 @@ select {
   display: flex;
 }
 
-
 #submit-btn {
-  background-color: #4E2C83;
+  background-color: rgb(78, 44, 131);
   color: white;
   height: 35px;
   border-radius: 8px;
   margin-bottom: 10px;
 }
-
-
-
