@@ -75,3 +75,5 @@ submmit.addEventListener('click', logar);
 checkInfo.addEventListener('click', checked);
 txtArea.addEventListener('keyup', txtAreaCount);
 btnEnviar.addEventListener('click', enviar);
+
+// testing script
