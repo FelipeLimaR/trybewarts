@@ -35,7 +35,7 @@ h1 {
 
 main {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 
@@ -43,7 +43,6 @@ main {
   display: flex;
   flex-direction: column;
   align-items: baseline;
-  width: 675px;
 }
 
 #div-radio, #div-checks, #div-avalia-radio, #div-text-area, #div-check-info-validation {
@@ -74,4 +73,90 @@ footer {
   background-color: black;
   color: white;
   height: 50px;
+}
+
+/* mobile */
+@media (min-width: 801px) and (max-width: 965px) {
+  .header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #div-form-login {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 800px) {
+  main {
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+  }
+
+  .header {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #evaluation-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #div-radio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #div-radio-input {
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  input#backend, input#fullstack {
+    margin-left: 10px;
+  }
+
+  #div-avalia-radio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #form-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+}
+
+@media (max-width: 595px) {
+
+  #div-form-login {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #valid-inputs, #mail-casa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }

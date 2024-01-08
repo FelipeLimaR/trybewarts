@@ -26,7 +26,7 @@ const getForm = () => {
   const nome = document.getElementById('input-name').value;
   const sobrenome = document.getElementById('input-lastname').value;
   const email = document.getElementById('input-email').value;
-  const casa = document.getElementById('house').value;
+  const casa = document.getElementById('select-house').value;
   const familia = document.querySelector('input[name="family"]:checked').value;
   const materias = document.querySelectorAll('.subject');
   const nota = document.querySelector('input[name="rate"]:checked').value;
@@ -75,5 +75,3 @@ submmit.addEventListener('click', logar);
 checkInfo.addEventListener('click', checked);
 txtArea.addEventListener('keyup', txtAreaCount);
 btnEnviar.addEventListener('click', enviar);
-
-// testing script
