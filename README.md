@@ -12,4 +12,4 @@
   [![My Skills](https://skillicons.dev/icons?i=j,bootstrap)](https://skillicons.dev)Bootstrap
 
 	
-#### <a href="https://felipelimar.github.io/trybewarts/">Página do projeto</a>
+#### <a target="_blank" href="https://felipelimar.github.io/trybewarts/">Página do projeto</a>
