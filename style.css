@@ -10,9 +10,9 @@
   width: 100px;
 }
 
-img {
+/* img {
   width: 100%;
-}
+} */
 
 h1 {
   align-self: center;
@@ -32,6 +32,7 @@ h1 {
 main {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 #evaluation-form {
@@ -72,6 +73,12 @@ main {
 
 #trybewarts-forms-logo {
   height: 500px;
+}
+
+#div-img {
+  display: flex;
+  /* flex-direction: column; */
+  align-self: baseline;
 }
 
 /* footer */
@@ -151,6 +158,11 @@ footer {
     flex-direction: column;
     justify-content: space-between;
     align-items: baseline;
+  }
+
+  #div-img {
+    display: flex;
+    align-self: center;
   }
 }
 
