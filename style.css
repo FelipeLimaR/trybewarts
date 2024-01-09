@@ -4,15 +4,12 @@
   align-items: start;
   justify-content: space-between;
   background-color: rgb(50, 167, 145);
+  min-width: 100vh;
 }
 
 .trybewarts-header-logo {
   width: 100px;
 }
-
-/* img {
-  width: 100%;
-} */
 
 h1 {
   align-self: center;
@@ -33,6 +30,7 @@ main {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  min-width: 100vh;
 }
 
 #evaluation-form {
@@ -90,6 +88,7 @@ footer {
   background-color: black;
   color: white;
   height: 50px;
+  min-width: 100vh;
 }
 
 /* mobile */
