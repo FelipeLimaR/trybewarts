@@ -1,10 +1,15 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+<h1 align='center'>Projeto Trybewarts </h1>
+
+### Página web contendo formulário da escola Trybewarts.
+
+  <summary><h4>O projeto teve como objetivo por em prática habilidades de criação de formulário, bem como estilização e responsividade.</h4></summary>
+
+  <summary><h3>Tecnologias utilizadas</h3></summary>
+  
+  [![My Skills](https://skillicons.dev/icons?i=j,html)](https://skillicons.dev)HTML
+  [![My Skills](https://skillicons.dev/icons?i=j,css)](https://skillicons.dev)CSS
+  [![My Skills](https://skillicons.dev/icons?i=j,js)](https://skillicons.dev)JS
+  [![My Skills](https://skillicons.dev/icons?i=j,bootstrap)](https://skillicons.dev)Bootstrap
+
+	
+#### <a href="https://felipelimar.github.io/trybewarts/">Página do projeto</a>
